@@ -1,5 +1,6 @@
 
 
+
 def validate_class_config(condition_config):
     assert 'class_condition_config' in condition_config, \
         "Class conditioning desired but class condition config missing"
